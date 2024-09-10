@@ -1,0 +1,48 @@
+.paper {
+  padding: 16px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  background-image: none;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.iconContainer {
+  background-color: #30c8c8;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 16px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.statsValue {
+  font-weight: 600;
+}
+
+.chartContainer {
+  width: 19rem;
+  height: 15rem;
+}

@@ -1,0 +1,81 @@
+.appBar {
+  margin-bottom: 30px;
+}
+
+.toolbar {
+  background: linear-gradient(180.86deg, #94c83d -11.66%, #00b4b9 126.84%);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100px;
+  height: 140px;
+  max-height: 140px;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.titleSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.subtitle {
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.formControl {
+  min-width: 180px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  height: 44px;
+  justify-content: flex-end;
+}
+
+.select {
+  background-color: transparent;
+  color: white;
+  &::before {
+    border-color: white !important;
+  }
+  &::after {
+    border-color: white !important;
+  }
+  &::hover {
+    border-color: white !important;
+  }
+}
+
+.select:focus {
+  background-color: transparent;
+}
+
+.selectIcon {
+  color: white;
+}
+
+.select.MuiInput-underline:before,
+.select.MuiInput-underline:hover:not(.Mui-disabled):before,
+.select.MuiInput-underline:after {
+  border-bottom: 1px solid white;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.themeToggle {
+  display: flex;
+  align-items: center;
+}
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}

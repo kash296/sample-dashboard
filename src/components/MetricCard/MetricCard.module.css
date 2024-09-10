@@ -1,0 +1,41 @@
+.card {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 9rem;
+  width: 20rem;
+  border-radius: 20px;
+  background-color: #272d4c;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  background-image: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dataContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.valueContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.changeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

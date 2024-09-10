@@ -1,0 +1,94 @@
+.drawer {
+  width: 350px;
+  flex-shrink: 0;
+}
+
+.drawerPaper {
+  width: 350px;
+  box-sizing: border-box;
+  background-color: #f4f8fa;
+  padding: 0 40px;
+}
+
+.drawerPaperDark {
+  width: 350px;
+  box-sizing: border-box;
+  background-color: #1f2733;
+  padding: 0 40px;
+}
+
+.toolbar {
+  border-bottom: 2px solid;
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(224, 225, 226, 0) 0%,
+    #a4bcd5 49.52%,
+    rgba(224, 225, 226, 0.15625) 99.04%
+  );
+  border-image-slice: 1;
+  padding: 48px 24px;
+}
+
+.menuContainer {
+  width: 100%;
+  background-color: #f4f8fa;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.menuContainerDark {
+  width: 100%;
+  background-color: #1f2733;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.listItem {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.listItem:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.activeItem {
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: #f4f8fa;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+}
+
+.listItemIcon {
+  min-width: 40px;
+  color: #30c8c8;
+}
+
+.listItemText {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #757575;
+}
+
+.activeItem .listItemText {
+  font-weight: 600;
+  color: #222222;
+}
+
+.footerLogo {
+  border-top: 2px solid;
+  border-image-source: linear-gradient(
+    90deg,
+    rgba(224, 225, 226, 0) 0%,
+    #a4bcd5 49.52%,
+    rgba(224, 225, 226, 0.15625) 99.04%
+  );
+  border-image-slice: 1;
+  padding: 48px 24px;
+}
+
+.acmeLogo {
+  width: 100%;
+}

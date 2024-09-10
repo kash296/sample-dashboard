@@ -1,0 +1,42 @@
+.paper {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 21rem;
+  width: 43.8rem;
+  border-radius: 20px;
+  max-height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  background-image: none;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.statItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  padding: 8px 0;
+}
+
+.statGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  width: 100%;
+}
+
+.statColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.statTitle {
+  font-weight: 600;
+}
