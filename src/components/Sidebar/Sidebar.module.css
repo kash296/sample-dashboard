@@ -8,6 +8,7 @@
   box-sizing: border-box;
   background-color: #f4f8fa;
   padding: 0 40px;
+  border-right: unset;
 }
 
 .drawerPaperDark {
@@ -15,6 +16,7 @@
   box-sizing: border-box;
   background-color: #1f2733;
   padding: 0 40px;
+  border-right: unset;
 }
 
 .toolbar {

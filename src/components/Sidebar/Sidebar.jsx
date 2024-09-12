@@ -11,9 +11,9 @@ import {
 import styles from "./Sidebar.module.css";
 import { useTheme } from "../../contexts/ThemeContext";
 import { menuItems } from "../../utils/constants";
-import YaliLogo from "../../assets/YaliLogo.png";
-import YaliLogoDark from "../../assets/YaliLogoDark.png";
-import ACMELogo from "../../assets/ACMELogo.png";
+import YaliLogo from "../../assets/Logos/YaliLogo.png";
+import YaliLogoDark from "../../assets/Logos/YaliLogoDark.png";
+import ACMELogo from "../../assets/Logos/ACMELogo.png";
 
 const Sidebar = () => {
   const { isDarkMode } = useTheme();

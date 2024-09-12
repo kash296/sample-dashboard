@@ -14,7 +14,7 @@ import {
 import LogoutIcon from "@mui/icons-material/Logout";
 import styles from "./Header.module.css";
 import { useTheme } from "../../contexts/ThemeContext";
-import UserProfileImage from "../../assets/UserProfile.png";
+import UserProfileImage from "../../assets/Logos/UserProfile.png";
 
 const Header = () => {
   const { isDarkMode, toggleTheme } = useTheme();

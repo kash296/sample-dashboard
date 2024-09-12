@@ -49,9 +49,9 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import YaliLogo from "./assets/YaliLogo.png";
-import ACMELogo from "./assets/ACMELogo.png";
-import UserProfileImage from "./assets/UserProfile.png";
+import YaliLogo from "./assets/Logos/YaliLogo.png";
+import ACMELogo from "./assets/Logos/ACMELogo.png";
+import UserProfileImage from "./assets/Logos/UserProfile.png";
 
 // Create a custom theme
 const theme = createTheme({
