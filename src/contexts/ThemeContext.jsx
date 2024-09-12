@@ -18,8 +18,8 @@ export const ThemeProvider = ({ children }) => {
         main: "#272D4C",
       },
       background: {
-        default: "#F4F8FA",
-        paper: "#F4F8FA",
+        default: "#f7fafc",
+        paper: "#f7fafc",
       },
     },
     typography: {

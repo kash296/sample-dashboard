@@ -1,18 +1,18 @@
 .drawer {
-  width: 350px;
+  width: 400px;
   flex-shrink: 0;
 }
 
 .drawerPaper {
-  width: 350px;
+  width: 400px;
   box-sizing: border-box;
-  background-color: #f4f8fa;
+  background-color: #f7fafc;
   padding: 0 40px;
   border-right: unset;
 }
 
 .drawerPaperDark {
-  width: 350px;
+  width: 400px;
   box-sizing: border-box;
   background-color: #1f2733;
   padding: 0 40px;
@@ -20,29 +20,25 @@
 }
 
 .toolbar {
-  border-bottom: 2px solid;
-  border-image-source: linear-gradient(
-    90deg,
-    rgba(224, 225, 226, 0) 0%,
-    #a4bcd5 49.52%,
-    rgba(224, 225, 226, 0.15625) 99.04%
-  );
-  border-image-slice: 1;
-  padding: 48px 24px;
+  margin: 55px 0 0 0;
+  display: flex;
+  justify-content: center;
 }
 
 .menuContainer {
   width: 100%;
-  background-color: #f4f8fa;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  background-color: #f7fafc;
 }
 
 .menuContainerDark {
   width: 100%;
   background-color: #1f2733;
-  padding-top: 16px;
-  padding-bottom: 16px;
+}
+
+.menuList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
 .listItem {
@@ -57,10 +53,14 @@
 }
 
 .activeItem {
-  border-radius: 5px;
-  border: 1px solid white;
-  background-color: #f4f8fa;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  height: 55px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.activeItem:hover {
+  background-color: #fff;
 }
 
 .listItemIcon {
@@ -69,9 +69,16 @@
 }
 
 .listItemText {
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 500;
-  color: #757575;
+  color: #8EA0B8;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.26;
+  letter-spacing: 0.13px;
+  text-align: left;
+  color: #8ea0b8;
+  flex-grow: 0;
 }
 
 .activeItem .listItemText {
@@ -80,17 +87,13 @@
 }
 
 .footerLogo {
-  border-top: 2px solid;
-  border-image-source: linear-gradient(
-    90deg,
-    rgba(224, 225, 226, 0) 0%,
-    #a4bcd5 49.52%,
-    rgba(224, 225, 226, 0.15625) 99.04%
-  );
-  border-image-slice: 1;
-  padding: 48px 24px;
+  display: flex;
+  justify-content: center;
 }
 
-.acmeLogo {
-  width: 100%;
+.divider {
+  margin: 32px 0;
+  border-image-source: linear-gradient(to right, rgba(224, 225, 226, 0), #a4bcd5 50%, rgba(224, 225, 226, 0.16));
+  border-bottom: 2px solid;
+  border-image-slice: 1;
 }

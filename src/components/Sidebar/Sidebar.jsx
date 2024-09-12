@@ -29,8 +29,9 @@ const Sidebar = () => {
       <Toolbar className={styles.toolbar}>
         <img src={isDarkMode ? YaliLogoDark : YaliLogo} alt="Yali Logo" />
       </Toolbar>
+      <Box className={styles.divider}/>
       <Box className={isDarkMode ? styles.menuContainerDark : styles.menuContainer}>
-        <List>
+        <List className={styles.menuList}>
           {menuItems.map((item, index) => (
             <ListItem
               button
@@ -50,6 +51,7 @@ const Sidebar = () => {
           ))}
         </List>
       </Box>
+      <Box className={styles.divider}/>
       <Box className={styles.footerLogo}>
         <img src={ACMELogo} alt="ACME Logo" className={styles.acmeLogo} />
       </Box>

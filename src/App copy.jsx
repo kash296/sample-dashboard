@@ -63,7 +63,7 @@ const theme = createTheme({
       main: "#272D4C",
     },
     background: {
-      default: "#F4F8FA",
+      default: "#f7fafc",
     },
   },
   typography: {
@@ -181,7 +181,7 @@ const Dashboard = () => {
             "& .MuiDrawer-paper": {
               width: 350,
               boxSizing: "border-box",
-              backgroundColor: "#F4F8FA",
+              backgroundColor: "#f7fafc",
               padding: "0 40px",
             },
           }}
@@ -197,7 +197,7 @@ const Dashboard = () => {
           >
             <img src={YaliLogo} alt="Yali Logo" />
           </Toolbar>
-          <Box sx={{ width: "100%", bgcolor: "#F4F8FA", py: 2 }}>
+          <Box sx={{ width: "100%", bgcolor: "#f7fafc", py: 2 }}>
             <List>
               {menuItems.map((item, index) => (
                 <ListItem
@@ -209,12 +209,12 @@ const Dashboard = () => {
                     py: 0.5,
                     "&:hover": {
                       backgroundColor:
-                        index > 0 ? "rgba(0, 0, 0, 0.04)" : "#F4F8FA",
+                        index > 0 ? "rgba(0, 0, 0, 0.04)" : "#f7fafc",
                     },
                     ...(index === 0 && {
                       borderRadius: "5px",
                       border: "1px solid white",
-                      backgroundColor: "#F4F8FA",
+                      backgroundColor: "#f7fafc",
                       boxShadow: "rgba(0,0,0,0.3) 0 0 10px",
                     }),
                   }}
@@ -260,7 +260,7 @@ const Dashboard = () => {
           sx={{
             flexGrow: 1,
             padding: "24px",
-            backgroundColor: "#F4F8FA",
+            backgroundColor: "#f7fafc",
           }}
         >
           <AppBar position="static" color="transparent" elevation={0}>

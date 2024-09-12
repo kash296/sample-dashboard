@@ -1,12 +1,16 @@
-import DashboardIcon from "@mui/icons-material/Dashboard";
-import PersonIcon from "@mui/icons-material/Person";
-import AssignmentIcon from "@mui/icons-material/Assignment";
-import GroupIcon from "@mui/icons-material/Group";
-import SettingsIcon from "@mui/icons-material/Settings";
-import EventIcon from "@mui/icons-material/Event";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
-import DescriptionIcon from "@mui/icons-material/Description";
-import AppsIcon from "@mui/icons-material/Apps";
+import {
+  DashboardIcon,
+  IDProviderIcon,
+  AttributeProviderIcon,
+  ApplicationsIcon,
+  UsersIcon,
+  GroupsIcon,
+  ReportsIcon,
+  AdvanceSettingsIcon,
+  EventsIcon,
+  ApproveRequestsIcon,
+  StatusApprovalIcon,
+} from "./Icons";
 
 export const loginData = [
   { name: "Jan", users: 0, activeUsers: 0 },
@@ -47,16 +51,16 @@ export const pieColors = ["#E2E8F0", "#26C6DA"];
 
 export const menuItems = [
   { text: "Dashboard", icon: DashboardIcon },
-  { text: "ID Providers", icon: PersonIcon },
-  { text: "Attribute Providers", icon: DescriptionIcon },
-  { text: "Applications", icon: AppsIcon },
-  { text: "Users", icon: PersonIcon },
-  { text: "Groups", icon: GroupIcon },
-  { text: "Reports", icon: AssignmentIcon },
-  { text: "Advance Settings", icon: SettingsIcon },
-  { text: "Events", icon: EventIcon },
-  { text: "Approve Requests", icon: CheckCircleIcon },
-  { text: "Status Approval", icon: CheckCircleIcon },
+  { text: "ID Providers", icon: IDProviderIcon },
+  { text: "Attribute Providers", icon: AttributeProviderIcon },
+  { text: "Applications", icon: ApplicationsIcon },
+  { text: "Users", icon: UsersIcon },
+  { text: "Groups", icon: GroupsIcon },
+  { text: "Reports", icon: ReportsIcon },
+  { text: "Advance Settings", icon: AdvanceSettingsIcon },
+  { text: "Events", icon: EventsIcon },
+  { text: "Approve Requests", icon: ApproveRequestsIcon },
+  { text: "Status Approval", icon: StatusApprovalIcon },
 ];
 
 export const usageStats = [

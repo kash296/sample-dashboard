@@ -15,19 +15,19 @@ const UsageStats = ({ stats }) => {
               <Typography className={styles.statTitle} variant="body1">
                 {item.title}
               </Typography>
-              <Typography variant="body1">{item.label}</Typography>
+              <Typography className={styles.statLabel} variant="body1">{item.label}</Typography>
             </Box>
             <Box className={styles.statColumn}>
               <Typography className={styles.statTitle} variant="body1">
                 Total:
               </Typography>
-              <Typography variant="body1">{item.value}</Typography>
+              <Typography className={styles.statLabel} variant="body1">{item.value}</Typography>
             </Box>
             <Box className={styles.statColumn}>
               <Typography className={styles.statTitle} variant="body1">
                 Trend:
               </Typography>
-              <Typography variant="body1">{item.trend}</Typography>
+              <Typography className={styles.statLabel} variant="body1">{item.trend}</Typography>
             </Box>
           </Box>
         </Box>
