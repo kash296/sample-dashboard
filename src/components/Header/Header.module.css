@@ -79,3 +79,10 @@
   display: flex;
   flex-direction: column;
 }
+
+.inputSelect {
+  padding: 0.5rem 0;
+  min-width: 13rem;
+  max-width: 13rem;
+  font-size: 1.25rem;
+}

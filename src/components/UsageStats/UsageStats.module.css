@@ -12,10 +12,30 @@
   background-color: white;
 }
 
+.paperDark {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25.8rem;
+  width: 43rem;
+  border-radius: 1.25rem;
+  max-height: 26rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  background-image: none;
+  background-color: #1f2733;
+}
+
 .title {
   font-weight: 600;
   font-size: 1.125rem;
   color: #344767;
+}
+
+.titleDarkMode {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: white;
 }
 
 .statItem {
@@ -51,6 +71,17 @@
   height: 0.875rem;
 }
 
+.statTitleDarkMode {
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+  line-height: 0.94;
+  letter-spacing: 0.4px;
+  text-align: left;
+  margin: 0 31.6px 6px 0;
+  height: 0.875rem;
+}
+
 .statLabel {
   width: 7.81rem;
   height: 1.31rem;
@@ -62,4 +93,17 @@
   letter-spacing: 0.4px;
   text-align: left;
   color: #344767;
+}
+
+.statLabelDarkMode {
+  width: 7.81rem;
+  height: 1.31rem;
+  font-size: 1.25rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: white;
 }

@@ -40,7 +40,7 @@ const Sidebar = () => {
                 index === 0 ? styles.activeItem : ""
               }`}
             >
-              <ListItemIcon className={styles.listItemIcon}>
+              <ListItemIcon className={index === 0 ? styles.listItemActiveIcon : styles.listItemIcon}>
                 <item.icon/>
               </ListItemIcon>
               <ListItemText

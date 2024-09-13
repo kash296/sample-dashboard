@@ -22,7 +22,7 @@
 }
 
 .toolbar {
-  margin: 55px 0 0 0;
+  margin: 3.4375rem 0 0 0;
   display: flex;
   justify-content: center;
 }
@@ -46,8 +46,10 @@
 .listItem {
   display: flex;
   justify-content: flex-start;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  gap: 1.25rem;
+  align-items: center;
 }
 
 .listItem:hover {
@@ -55,9 +57,9 @@
 }
 
 .activeItem {
-  height: 55px;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+  height: 3.4375rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.25rem 1.25rem 0 rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
 
@@ -66,8 +68,26 @@
 }
 
 .listItemIcon {
-  min-width: 40px;
+  min-width: 2.1875rem;
+  max-width: 2.1875rem;
+  min-height: 2.1875rem;
+  max-height: 2.1875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #30c8c8;
+}
+
+.listItemActiveIcon {
+  min-width: 2.1875rem;
+  max-width: 2.1875rem;
+  min-height: 2.1875rem;
+  max-height: 2.1875rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #30c8c8;
+  border-radius: 0.625rem;
 }
 
 .listItemText {
@@ -93,7 +113,7 @@
 }
 
 .divider {
-  margin: 32px 0;
+  margin: 2rem 0;
   border-image-source: linear-gradient(to right, rgba(224, 225, 226, 0), #a4bcd5 50%, rgba(224, 225, 226, 0.16));
   border-bottom: 2px solid;
   border-image-slice: 1;

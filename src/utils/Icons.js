@@ -1,4 +1,4 @@
-import DashboardIcon from "../assets/Icons/1_dashboard_teal.svg";
+import DashboardIcon from "../assets/Icons/1_dashboard_White.svg";
 import IDProviderIcon from  "../assets/Icons/2_id_provider_teal.svg";
 import AttributeProviderIcon from  "../assets/Icons/3_attribute_provider_teal.svg";
 import ApplicationsIcon from  "../assets/Icons/4_applications_teal.svg";

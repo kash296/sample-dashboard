@@ -46,7 +46,7 @@ const Header = () => {
               onChange={() => console.log("on state change")}
               displayEmpty
               inputProps={{ "aria-label": "Without label" }}
-              input={<Input />}
+              input={<Input className={styles.inputSelect} />}
               classes={{
                 icon: styles.selectIcon
               }}
