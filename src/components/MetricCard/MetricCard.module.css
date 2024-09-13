@@ -10,7 +10,8 @@
   border-radius: 1.25rem;
   background-color: #272d4c;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.04),
+    0 4px 20px -1px rgba(0, 0, 0, 0.1);
   background-image: none;
 }
 
@@ -50,5 +51,5 @@
 }
 
 .secondaryText {
-  color: #9EB3C1;
+  color: #9eb3c1;
 }

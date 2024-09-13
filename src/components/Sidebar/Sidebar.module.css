@@ -15,7 +15,7 @@
 .drawerPaperDark {
   width: 21.875rem;
   box-sizing: border-box;
-  background-color: #1f2733;
+  background-color: #1a202c;
   padding: 0rem 1rem;
   padding-left: 2.5rem;
   border-right: unset;
@@ -34,7 +34,7 @@
 
 .menuContainerDark {
   width: 100%;
-  background-color: #1f2733;
+  background-color: #1a202c;
 }
 
 .menuList {

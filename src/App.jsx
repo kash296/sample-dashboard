@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Box, Grid2 as Grid } from "@mui/material";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Header from "./components/Header/Header";
@@ -24,6 +25,15 @@ import {
 
 const App = () => {
   const { isDarkMode } = useTheme();
+
+  useEffect(() => {
+    const htmlElement = document.documentElement;
+    if (isDarkMode) {
+      htmlElement.classList.add("dark-mode");
+    } else {
+      htmlElement.classList.remove("dark-mode");
+    }
+  }, [isDarkMode]);
 
   return (
     <Box className={styles.root}>

@@ -7,7 +7,8 @@
   width: 43rem;
   border-radius: 1.25rem;
   max-height: 26rem;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.04),
+    0 4px 20px -1px rgba(0, 0, 0, 0.1);
   background-image: none;
   background-color: white;
 }
@@ -21,7 +22,8 @@
   width: 43rem;
   border-radius: 1.25rem;
   max-height: 26rem;
-  box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.04),
+    0 4px 20px -1px rgba(0, 0, 0, 0.1);
   background-image: none;
   background-color: #1f2733;
 }
@@ -63,7 +65,7 @@
 .statTitle {
   font-weight: 600;
   font-size: 1rem;
-  color: #7B809A;
+  color: #7b809a;
   line-height: 0.94;
   letter-spacing: 0.4px;
   text-align: left;
