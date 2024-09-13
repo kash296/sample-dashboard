@@ -7,10 +7,6 @@ import LoginUsersChart from "./components/LoginUsersChart/LoginUsersChart";
 import ResponsesChart from "./components/ResponsesChart/ResponsesChart";
 import UserActionChart from "./components/UserActionChart/UserActionChart";
 import {
-  Person as PersonIcon,
-  Assignment as AssignmentIcon,
-} from "@mui/icons-material";
-import {
   loginData,
   taskData,
   userActionData,
@@ -19,6 +15,12 @@ import {
 } from "./utils/constants";
 import styles from "./App.module.css";
 import { useTheme } from "./contexts/ThemeContext";
+import {
+  LoggedInUsersIcon,
+  ActiveUsersIcon,
+  LoggedOutUsersIcon,
+  ApplicationActiveUsersIcon,
+} from "./utils/Icons";
 
 const App = () => {
   const { isDarkMode } = useTheme();
@@ -36,7 +38,7 @@ const App = () => {
             <Grid container spacing={2} className={styles.metricsGrid}>
               <Grid item xs={12} sm={6} md={3}>
                 <MetricCard
-                  icon={PersonIcon}
+                  icon={LoggedInUsersIcon}
                   value="2,300"
                   label="Login Users"
                   change="+3%"
@@ -44,7 +46,7 @@ const App = () => {
               </Grid>
               <Grid item xs={12} sm={6} md={3}>
                 <MetricCard
-                  icon={PersonIcon}
+                  icon={ActiveUsersIcon}
                   value="2,300"
                   label="Login Users"
                   change="+3%"
@@ -52,7 +54,7 @@ const App = () => {
               </Grid>
               <Grid item xs={12} sm={6} md={3}>
                 <MetricCard
-                  icon={PersonIcon}
+                  icon={LoggedOutUsersIcon}
                   value="1879"
                   label="Logged out users"
                   change="-5%"
@@ -60,7 +62,7 @@ const App = () => {
               </Grid>
               <Grid item xs={12} sm={6} md={3}>
                 <MetricCard
-                  icon={AssignmentIcon}
+                  icon={ApplicationActiveUsersIcon}
                   value="1,250"
                   label="Applications active"
                   change="+1%"

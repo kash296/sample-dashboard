@@ -14,11 +14,11 @@ const MetricCard = ({ icon: Icon, value, label, change }) => {
             <Typography variant="h6" component="div">
               {value}
             </Typography>
-            <Typography variant="body2">{label}</Typography>
+            <Typography className={styles.secondaryText} variant="body2">{label}</Typography>
           </Box>
           <Box className={styles.changeContainer}>
             <Typography variant="h6">{change}</Typography>
-            <Typography variant="caption">than yesterday</Typography>
+            <Typography className={styles.secondaryText} variant="caption">than yesterday</Typography>
           </Box>
         </Box>
       </Box>

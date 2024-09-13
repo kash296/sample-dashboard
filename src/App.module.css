@@ -1,18 +1,16 @@
 .root {
   display: flex;
-  height: 100vh;
-  width: 100vw;
 }
 
 .content {
   flex-grow: 1;
-  padding: 32px 24px;
+  padding: 2rem 3rem 2rem 1.5rem;
   background-color: #f7fafc;
 }
 
 .contentDark {
   flex-grow: 1;
-  padding: 32px 24px;
+  padding: 2rem 3rem 2rem 1.5rem;
   background-color: #1f2733;
 }
 
@@ -27,7 +25,9 @@
 }
 
 .metricsGrid {
-  max-width: 45rem;
+  max-width: 46.8rem;
+  display: flex;
+  gap: 1.8rem;
 }
 
 .chartsContainer {
@@ -38,5 +38,5 @@
 
 .smallChartsContainer {
   display: flex;
-  gap: 60px;
+  gap: 1.775rem;
 }

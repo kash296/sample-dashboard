@@ -1,13 +1,13 @@
 .paper {
-  padding: 16px;
-  border-radius: 20px;
+  padding: 1.4rem;
+  border-radius: 1.25rem;
   box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
   background-image: none;
 }
 
 .title {
   font-weight: 600;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .content {

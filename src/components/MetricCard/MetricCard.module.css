@@ -1,11 +1,13 @@
 .card {
-  padding: 16px;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 9rem;
-  width: 20rem;
-  border-radius: 20px;
+  height: 12rem;
+  max-height: 12rem;
+  width: 19.5rem;
+  max-width: 19.5rem;
+  border-radius: 1.25rem;
   background-color: #272d4c;
   color: white;
   box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
@@ -21,12 +23,19 @@
 
 .iconContainer {
   display: flex;
-  justify-content: space-between;
+  max-width: 3.75rem;
+  min-width: 3.75rem;
+  max-height: 3.75rem;
+  min-height: 3.75rem;
+  border-radius: 1.25rem;
+  background-color: white;
+  margin: 0.875rem;
 }
 
 .dataContainer {
   display: flex;
   justify-content: space-between;
+  padding: 0.875rem;
 }
 
 .valueContainer {
@@ -38,4 +47,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.secondaryText {
+  color: #9EB3C1;
 }

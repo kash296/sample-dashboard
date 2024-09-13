@@ -1,13 +1,13 @@
 .paper {
-  padding: 16px;
-  border-radius: 20px;
+  padding: 1.4rem;
+  border-radius: 1.25rem;
   box-shadow: rgba(0, 0, 0, 0.3) 0 0 10px;
   background-image: none;
 }
 
 .title {
   font-weight: 600;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .content {
@@ -17,19 +17,19 @@
 
 .header {
   display: flex;
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .iconContainer {
   background-color: #30c8c8;
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .stats {
