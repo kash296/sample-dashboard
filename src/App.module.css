@@ -39,4 +39,7 @@
 .smallChartsContainer {
   display: flex;
   gap: 1.775rem;
+  @-moz-document url-prefix() {
+    gap: 2.75rem;
+  }
 }
