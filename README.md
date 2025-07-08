@@ -1,8 +1,11 @@
-# React + Vite
+<h1 align="center">Welcome to sample-dashboard 👋</h1>
+<p>
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> This project involved consulting and front-end implementation for a client dashboard proof-of-concept. A UI/UX design specialist engaged me to help bridge the gap between design and development, as their company focused solely on design and did not handle web app development. My role included building a sample dashboard component in React to help the client visualize how their Single-Sign-On/Identity Management solution could eventually look and function. I worked closely with the design team to ensure the implementation aligned with the intended user experience.
 
-Currently, two official plugins are available:
+## Author
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👤 **Kaushik Murali**
+
+* Github: [@kash296](https://github.com/kash296)
